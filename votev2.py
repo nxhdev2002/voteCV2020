@@ -7,6 +7,7 @@ def work(num):
     Lock.release()
     while True:
         headers = {
+            'Content-Type': 'application/json',
             'referer': 'https://www.riddle.com/a/269406',
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51',
             'x-requested-with': 'XMLHttpRequest'
